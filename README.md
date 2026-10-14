@@ -87,4 +87,4 @@ backend/src/
 
 ---
 
-Dibuat oleh **DzakyRishan** — proyek portofolio full-stack.
+Dibuat oleh **CarlosAchantaZakky** — proyek portofolio full-stack.
