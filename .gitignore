@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment
+.env
+.env.local
+.env.production
+**/.env
+
+# Build output
+dist/
+**/dist/
+build/
+
+# Uploads runtime (foto produk yang diupload via app saat dev lokal)
+# Catatan: file contoh di backend/uploads/products tetap ikut; yang di-ignore
+# hanya kalau kamu mau. Default: biarkan uploads ikut agar demo ada gambarnya.
+
+# Folder sumber foto mentah (bukan bagian aplikasi)
+Foto Produk/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.kiro/
+
+# Scratch
+*_backup/
+boot_out.log
+boot_err.log
+be_out.log
+be_err.log
+fe_out.log
+fe_err.log
